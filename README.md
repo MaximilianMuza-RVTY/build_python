@@ -27,6 +27,14 @@ $ sudo apt install python3.11-full
 ```
 Will install the full Python 3.11 environment, with the exception of things full dev and debug files. For example, it does not install python3.11-dev
 
+Then if needed symlink pytho3 to python3.11.
+```
+sudo rm /usr/bin/python3
+```
+```
+sudo ln -s /usr/bin/python3.11 /usr/BIN/python3
+```
+
 ## Notes
 ### June 2023, Initial Release
 - Tested on Jetson Nano 4GB, Python 3.11
