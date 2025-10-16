@@ -32,7 +32,7 @@ Then if needed symlink pytho3 to python3.11.
 sudo rm /usr/bin/python3
 ```
 ```
-sudo ln -s /usr/bin/python3.11 /usr/BIN/python3
+sudo ln -s /usr/bin/python3.11 /usr/bin/python3
 ```
 
 ## Notes
