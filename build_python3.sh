@@ -53,7 +53,7 @@ sudo apt install -y build-essential gdb lcov pkg-config \
       libncurses5-dev libreadline6-dev libsqlite3-dev libssl-dev \
       lzma lzma-dev tk-dev uuid-dev zlib1g-dev  
       
-sudo apt install -y libncursesw5-dev libmpdec-dev
+sudo apt install -y libncursesw5-dev libmpdec-dev debhelper
 
 # Install Python 3 extra dependencies
 sudo apt install -y quilt sharutils libdb-dev blt-dev libbluetooth-dev \
